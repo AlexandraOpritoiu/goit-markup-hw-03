@@ -1,0 +1,257 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+:root {
+    --heading-font-family: 'Roboto', sans-serif;
+    --hover-color: #2196F3;
+    --text-color: #757575;
+    --header-color: #212121;
+    --section-background: #2F303A;
+}
+
+ul{
+    list-style: none;
+}
+.header-section {
+    display: flex;
+    width: 1600px;
+    height: 80px;
+
+}
+.header-section .navigation-section ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-line {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.navigation-section {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:259px;
+    padding-left: 453px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.logo {
+display: flex;
+width:145px;
+height:31px
+padding-top:24px;
+padding-left:215px;
+}
+
+.contacts-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 215px;
+
+}
+.navigation-section .link{
+    color:var(--header-color);
+text-decoration: none;
+}
+
+.current {
+    color: var(--hover-color);
+}
+.contacts-header {
+    display: flex;
+}
+.contacts-header .link{
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.17;
+    color:var(--text-color);
+    font-size: 500;}
+
+.contacts-footer .link {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--text-color);
+    font-size: 400;
+}
+
+.contacts-header .link:hover, .link:active{
+color:var(--hover-color);
+}
+
+.contacts-footer .link:hover, .link.active {
+    color: var(--hover-color);
+}
+
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.85;
+    background-color:var(--hover-color);
+    color: #fff;
+    width: 200px
+    height: 50px
+    top: 430px
+    left: 700px
+    border-radius: 4px;
+    cursor:pointer;
+    font-family: inherit;
+    }
+
+.btn:hover {
+    background-color: #188CE8;
+    color:#fff;
+}
+
+/* butoane-portofoliu */
+.btn-filter{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.85px;
+    color:var(--header-color);
+    background-color: #F5F4FA;
+    height: 26px;
+    top: 180px;
+    left: 959px;
+    cursor:pointer;
+    font-family: inherit;
+}
+
+.btn-filter:hover, .btn-filter:focus{
+    color: #fff;
+    background-color: var(--hover-color);
+}
+
+.btn-filter:active{
+background-color: var(--hover-color);
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 2.18;
+    color:#fff;
+}
+
+.logo .first-logo {
+    color: var(--hover-color);
+}
+
+.logo .second-logo {
+    color: #000;
+}
+
+.header-section {
+    width: 1600px;
+    background-color: #ECECEC;
+}
+
+.first-section {
+    width: 1600px;
+    height: 600px;
+    top: 80px;
+    background-color: var(--section-background);
+}
+.first-section h1 {
+    color: #F5F4FA;
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 4.28;
+}
+
+.second-section p{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color: var(--text-color);
+}
+
+.second-section h3{
+    font-weight: 700;
+    size:14px;
+    line:1.17;
+    color: var(--header-color);
+}
+
+.third-section h2{
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 3.01;
+    text-align: center;
+    color: var(--header-color);
+}
+.third-section {
+    width: 1600px;
+}
+
+.fourth-section h2{
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 3.01;
+    text-align: center;
+    color: var(--header-color);
+}
+.fourth-section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.33;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.fourth-section {
+    background-color:#F5F4FA;
+    width: 1600px;
+
+}
+
+.fourth-section h3 {
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 1.33;
+    text-align: center;
+    color: var(--header-color);
+}
+
+.text-section h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.57;
+    color: var(--header-color);
+}
+
+.text-section span{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 2.14;
+    color: var(--text-color);
+
+}
+.footer-section {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    width: 1600px;
+    height: 251px;
+    top: 2097px;
+    background-color: var(--section-background);
+    color: #fff;
+} 
+.footer-section address{
+    font-style: normal;
+}
