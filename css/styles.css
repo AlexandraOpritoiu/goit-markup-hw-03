@@ -17,36 +17,44 @@ body {
 ul{
     list-style: none;
 }
-.header-section{
-    width: 1600px;
-    height: 80px;
+
+.nav-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+    height: 16px;
+        width: 259px;
+        padding-top: 32px padding-bottom:32px;
+}
+
+.contacts-header-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 215px;
+    column-gap: 40px;
+    height: 16px;
 }
 
 .topline-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header-section .nav-container ul {
-    display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
+    border-bottom: 1px solid #ECECEC;
+    
 }
-
 .logo {
     display: flex;
     align-items: center;
     width: 145px;
     padding-left: 215px;
-    padding-top: 24px;
+    height: 31px;
 }
 
-.contacts-header {
-    display: flex;
-    justify-content:space-between;
-    padding-right: 215px;
-}
+
+
 
 .navigation-section .link{
     color:var(--header-color);
@@ -92,7 +100,7 @@ color:var(--hover-color);
     color: #fff;
     width: 200px;
     height: 50px;
-    top: 430px;
+    top: 350px;
     left: 700px;
     border-radius: 4px;
     cursor:pointer;
@@ -149,7 +157,8 @@ background-color: var(--hover-color);
 .first-section {
     display:flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    align-items:center;
     height: 600px;
     background-color: var(--section-background);
 }
@@ -159,8 +168,9 @@ background-color: var(--hover-color);
     font-weight: 900;
     font-size: 44px;
     line-height:60px;
-Width: 696px;
+    Width: 696px;
     Height: 120px;
+    row-gap: 30px;
 }
 
 .second-section p{
@@ -169,21 +179,27 @@ font-size: 14px;
 line-height: 1.71;
 color: var(--text-color);
 width:270px;
-height: 75px;}
+height: 75px;
+}
 
 .second-section h3{
-    font-weight: 700;
-    size:14px;
-    line:1.17;
-    color: var(--header-color);
+font-weight: 700;
+size: 14px;
+line: 1.17;
+color: var(--header-color);
+width: 270px;
+height: 16px;
+padding-bottom: 10px;
 }
 .second-section ul{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 215px;
-    padding-right: 215px;
-    padding-top:94px;
-    padding-bottom: 94px;
+display: flex;
+justify-content: space-between;
+padding-left: 215px;
+padding-right: 215px;
+padding-top:94px;
+padding-bottom: 94px;
+column-gap: 30px;
+    height:101px;
 }
 
 
@@ -193,17 +209,29 @@ height: 75px;}
     line-height: 3.01;
     text-align: center;
     color: var(--header-color);
-}
-.third-section {
-    width: 1600px;
+    padding-top: 94px;
 }
 
+.third-section ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 215px;
+    padding-right: 215px;
+    padding-top: 50px;
+    padding-bottom: 94px;
+    column-gap: 30px;  
+}
+.fourth-section {
+    background-color: #F5F4FA;
+}
 .fourth-section h2{
     font-weight: 700px;
     font-size: 36px;
     line-height: 3.01;
     text-align: center;
     color: var(--header-color);
+
 }
 .fourth-section p {
     font-weight: 400;
@@ -212,11 +240,13 @@ height: 75px;}
     text-align: center;
     color: var(--text-color);
 }
-
-.fourth-section {
-    background-color:#F5F4FA;
-    width: 1600px;
-
+.fourth-section ul{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 215px;
+    padding-right: 215px;
+    column-gap: 30px;
 }
 
 .fourth-section h3 {
@@ -225,6 +255,7 @@ height: 75px;}
     line-height: 1.33;
     text-align: center;
     color: var(--header-color);
+    row-gap: 10px;
 }
 
 .text-section h3{
@@ -245,12 +276,29 @@ height: 75px;}
     font-weight: 400;
     font-size: 14px;
     line-height: 1.17;
-    width: 1600px;
     height: 251px;
     top: 2097px;
     background-color: var(--section-background);
     color: #fff;
 } 
 .footer-section address{
-    font-style: normal;
+    font-style: normal;      
+}
+
+.footer-container{
+    display: flex;
+    padding-left: 215px;
+    padding-bottom: 60px;
+    min-width: 231px; 
+    height: 72px;  
+}
+
+.images-container ul{
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 215px;
+    column-gap: 30px;
+    row-gap: 30px;
 }
