@@ -3,7 +3,7 @@ body {
     background-color: white;
     font-weight: 400;
     margin: 0 auto;
-    width: 1600px;
+   width: 1600px;  
 }
 
 :root {
@@ -13,7 +13,6 @@ body {
     --header-color: #212121;
     --section-background: #2F303A;
 }
-
 ul{
     list-style: none;
 }
@@ -21,40 +20,43 @@ ul{
 .nav-container ul{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    column-gap: 50px;
+    align-items:center;
+    column-gap:50px;
     height: 16px;
-        width: 259px;
-        padding-top: 32px padding-bottom:32px;
+    padding-top: 32px; 
+    padding-bottom:32px;
+    
 }
 
 .contacts-header-container ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 215px;
     column-gap: 40px;
     height: 16px;
+    
 }
 
 .topline-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid #ECECEC;
-    
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
+
 .logo {
     display: flex;
     align-items: center;
     width: 145px;
-    padding-left: 215px;
     height: 31px;
 }
-
-
-
 
 .navigation-section .link{
     color:var(--header-color);
@@ -194,37 +196,38 @@ padding-bottom: 10px;
 .second-section ul{
 display: flex;
 justify-content: space-between;
-padding-left: 215px;
-padding-right: 215px;
-padding-top:94px;
-padding-bottom: 94px;
-column-gap: 30px;
-    height:101px;
+column-gap: 30px;  
+padding-left: 15px;
+padding-right: 15px;
+margin-right: 200px;
+margin-left: 200px;
 }
 
-
 .third-section h2{
-    font-weight: 700px;
-    font-size: 36px;
-    line-height: 3.01;
-    text-align: center;
-    color: var(--header-color);
-    padding-top: 94px;
+font-weight: 700px;
+font-size: 36px;
+line-height: 3.01;
+text-align: center;
+color: var(--header-color);
 }
 
 .third-section ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 215px;
-    padding-right: 215px;
-    padding-top: 50px;
-    padding-bottom: 94px;
-    column-gap: 30px;  
+    column-gap: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 200px;
+    margin-left: 200px;
+  
 }
+
 .fourth-section {
     background-color: #F5F4FA;
+    height: 648px;
 }
+
 .fourth-section h2{
     font-weight: 700px;
     font-size: 36px;
@@ -240,13 +243,15 @@ column-gap: 30px;
     text-align: center;
     color: var(--text-color);
 }
-.fourth-section ul{
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    padding-left: 215px;
-    padding-right: 215px;
+.fourth-section ul {
+    display: flex;
+    justify-content:space-between;
+    width: 1200;
     column-gap: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 .fourth-section h3 {
@@ -256,6 +261,12 @@ column-gap: 30px;
     text-align: center;
     color: var(--header-color);
     row-gap: 10px;
+}
+
+.card li {
+    Width: 270px;
+    Height: 368px;
+    background-color: #fff;
 }
 
 .text-section h3{
@@ -276,13 +287,12 @@ column-gap: 30px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.17;
-    height: 251px;
-    top: 2097px;
     background-color: var(--section-background);
     color: #fff;
+   
 } 
 .footer-section address{
-    font-style: normal;      
+    font-style: normal;    
 }
 
 .footer-container{
@@ -290,15 +300,39 @@ column-gap: 30px;
     padding-left: 215px;
     padding-bottom: 60px;
     min-width: 231px; 
-    height: 72px;  
+    padding-top: 119px; 
+}
+.footer-section a{
+    padding-top: 60px;
+
+}
+
+.buttons-container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    column-gap: 8px;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
 }
 
 .images-container ul{
-    width: 1170px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     padding-left: 215px;
     column-gap: 30px;
     row-gap: 30px;
 }
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
