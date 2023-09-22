@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: white;
     font-weight: 400;
-    width: 100%;
+   
 }
 
 :root {
@@ -23,20 +23,25 @@ ul{list-style: none;}
     align-items: center;
     column-gap: 50px;
 }
+
 .contacts-header-container ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 40px;
 }
 .topline-container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 200px;
-    margin-right: 200px;
+        justify-content: space-between;
+        align-items: center;
+        width: 1200px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 200px;
+        margin-right: 200px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .navigation-section .link{
@@ -137,11 +142,10 @@ background-color: var(--hover-color);
 .first-section {
     display: flex;
     flex-direction: column;
-        align-items: center;
-        background-color: var(--section-background);
-        width: 1600px;
-        margin: auto;
-        row-gap: 30px;
+    align-items: center;
+    background-color: var(--section-background);
+    width: 1600px;
+    margin: auto;
 }
 
 .first-section h1 {
@@ -150,12 +154,11 @@ background-color: var(--hover-color);
     font-weight: 900;
     font-size: 44px;
     line-height:60px;
-    padding-top: 200px;
-}
+    margin-top: 200px;
+    }
 .first-section button{
     margin-bottom: 200px;
 }
-
 .second-section p{
 font-weight: 400;
 font-size: 14px;
@@ -174,13 +177,13 @@ display: flex;
 justify-content: space-between;
 padding-left: 15px;
 padding-right: 15px;
+padding-top: 94px;
+padding-bottom: 47px;
 column-gap: 30px;}
 
 .second-section{
 width: 1200px;
 margin: auto;
-padding-top: 94px;
-padding-bottom: 47px;
 }
 
 .third-section {
@@ -188,7 +191,7 @@ margin: auto;
 width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
-padding-bottom: 94px;
+row-gap: 50px;
 }
 
 .third-section h2{
@@ -197,14 +200,15 @@ font-size: 36px;
 line-height: 3.01;
 text-align: center;
 color: var(--header-color);
-}
 
+}
 .third-section ul{
 display: flex;
 justify-content: space-between;
 padding-left: 0px;
 padding-right: 0px;
 column-gap: 30px;
+padding-bottom: 94px;
     }
 
 .fourth-section {
@@ -223,6 +227,7 @@ column-gap: 30px;
     margin-right: 200px;
     margin-left: 200px;
     padding-bottom: 94px;
+    margin: auto;
 }
    
 .fourth-section h2{
@@ -232,7 +237,6 @@ column-gap: 30px;
     text-align: center;
     color: var(--header-color);
     padding-top: 94px;
-    padding-bottom: 50px;
 }
 .fourth-section p {
     font-weight: 400;
@@ -256,6 +260,7 @@ color: var(--header-color);
     font-size: 18px;
     line-height: 2.57;
     color: var(--header-color);
+    padding-top: 20px;
 }
 
 .text-section span{
@@ -263,7 +268,7 @@ color: var(--header-color);
     font-size: 16px;
     line-height: 2.14;
     color: var(--text-color);
-
+    padding-bottom: 20px;
 }
 .footer-section {
     font-weight: 400;
@@ -281,13 +286,12 @@ color: var(--header-color);
 }
 
 .card li {
-    Width: 270px;
-    background-color: #fff;
+  background-color: #fff;
 
 }
 .card-text{
     padding-top: 30px;
-    row-gap: 10px;
+    row-gap: 2px;
     padding-bottom: 30px;
 }
 
@@ -307,4 +311,57 @@ color: var(--header-color);
     row-gap: 12px;
     padding-bottom: 60px;
     padding-top: 28px;
+}
+
+/* portfolio page */
+ 
+.buttons-container ul {
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+   width:516px;
+    margin: auto;
+    column-gap: 8px;
+}
+.images-container ul {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding-top: 50px;
+}
+
+.grid-container ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 30px;   
+}
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.portfolio {
+    margin: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+.portfolio-card {
+    width:370px;
+    background-color: #fff; 
+}
+.portfolio-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    border-bottom: 1px solid #eee;
+}
+.portfolio-text h3{
+    margin-bottom: 4px;
+}
+.portfolio-text span{
+    margin-bottom: 20px;
 }
